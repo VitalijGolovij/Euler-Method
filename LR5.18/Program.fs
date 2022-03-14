@@ -27,9 +27,39 @@ let Metod_2 x =
             rec_Metod_2 newX newCur
     rec_Metod_2 x (-1)
 
+let nd x =
+    let rec rec_nd x counter =
+        if (x=counter) then 1
+        else
+            if (x%counter=0) then counter
+            else
+                rec_nd x (counter+1)
+    rec_nd x 2
+
+let sumCifr5 x=
+    let rec rec_sumCifr5 x cur=
+        if x=0 then cur
+        else
+            let newCur=if x%10<5 then cur+(x%10) else cur
+            let newX=x/10
+            rec_sumCifr5 newX newCur
+    rec_sumCifr5 x 0
+
+let Metod_3 x =
+    let n = nd x
+    let rec rec_Metod_3 x counter= 
+        if counter = 0 then 0
+        else
+            if (nod x counter)<>1 && counter%n<>0 then counter*(sumCifr5 counter)
+            else
+                rec_Metod_3 x (counter-1)
+    rec_Metod_3 x (x-1)
 
 [<EntryPoint>]
 let main argv =
     Console.WriteLine(Metod_1 6)
     Console.WriteLine(Metod_2 3686)
+    Console.WriteLine(Metod_3 21)
     0 // return an integer exit code
+     
+    // 21 14 70

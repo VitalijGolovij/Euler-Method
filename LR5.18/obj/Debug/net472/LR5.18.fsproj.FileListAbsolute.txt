@@ -20,3 +20,4 @@ C:\Users\Vitalii\source\repos\LR5\LR5.18\obj\Debug\net472\LR5.18.AssemblyInfo.fs
 C:\Users\Vitalii\source\repos\LR5\LR5.18\obj\Debug\net472\LR5.18.fsproj.CopyComplete
 C:\Users\Vitalii\source\repos\LR5\LR5.18\obj\Debug\net472\LR5.18.exe
 C:\Users\Vitalii\source\repos\LR5\LR5.18\obj\Debug\net472\LR5.18.pdb
+C:\Users\Vitalii\source\repos\LR5\LR5.18\obj\Debug\net472\LR5.18.fsprojAssemblyReference.cache
