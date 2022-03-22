@@ -23,5 +23,5 @@ let main argv =
     let list = readData
     let ans = task list
     Console.WriteLine("ans:")
-    list|>List.iter (printfn "%i")
+    ans|>List.iter (printfn "%i")
     0 // return an integer exit code
