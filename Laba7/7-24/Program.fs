@@ -1,20 +1,30 @@
 ﻿
 open System
 
-let rec readList n = 
-    if n=0 then []
-    else
-    let Head = System.Convert.ToInt32(System.Console.ReadLine())
-    let Tail = readList (n-1)
-    Head::Tail
+let read_array n =
+    let rec read_array_r n arr = 
+        if n = 0 then
+            arr
+        else
+            let tail = System.Console.ReadLine() |> Int32.Parse
+            let new_arr = Array.append arr [|tail|]
+            let n1 = n - 1
+            read_array_r n1 new_arr
 
-let readData = 
-    let n=System.Convert.ToInt32(System.Console.ReadLine())
-    readList n
+    read_array_r n Array.empty
+
+let write_array arr =
+    printfn "%A" arr
     
 [<EntryPoint>]
 let main argv =
-    let list = readData
+    printfn "Кол-во элементов в массиве:"
+    let n = Console.ReadLine() |>Int32.Parse
+    printfn "Массив:"
+    let arr = read_array  n
+
+    let list = Array.toList arr
+
     let max1:int = List.max list//первый макс элемнет
     let idxMax1:int = List.findIndex (fun x-> x = max1) list //найти индекс макс1
     let listWithoutMax1 = List.removeAt idxMax1 list//удаление макс1 из списка
