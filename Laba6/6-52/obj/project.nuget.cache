@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XrpZSNZhNTylaHHLxLbC9O0aBoUnBZb5XoYUV5mFJUCohLjepIn8nR4V/AzuXCOtOP4SAD3loPhR4oLs42pR0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vitalii\\source\\repos\\LR5\\Laba6\\6-52\\6-52.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vitalii\\.nuget\\packages\\fsharp.core\\6.0.2\\fsharp.core.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
