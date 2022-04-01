@@ -14,9 +14,19 @@ let IsPalindrom (str:string) =
         else
         Console.WriteLine("Не является")
 
+let getCountSpace (str:string) =
+    let arrChar = str.ToCharArray()
+    let rec recGetCountSpace arr idx count=
+        if idx+1>(Array.length arr) then count
+        else
+            let newCount = if (Array.get arr idx)=' ' then (count+1) else count
+            recGetCountSpace arr (idx+1) newCount
+    Console.WriteLine(recGetCountSpace arrChar 0 0)
+
+
 [<EntryPoint>]
 let main argv =
     
     let str = Console.ReadLine()
-    IsPalindrom str
+    getCountSpace str
     0
