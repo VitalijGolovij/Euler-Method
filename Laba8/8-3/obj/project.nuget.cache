@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q+Px1E5xvaC3NGY46mgzy5he062RdBpibh/tvhzS/kNLJeF8yoZZ+q5nIiqEDAApsOE/Zt+opgtkVCUC2oBjAQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vitalii\\source\\repos\\LR5\\Laba8\\8-3\\8-3.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vitalii\\.nuget\\packages\\fparsec\\1.1.1\\fparsec.1.1.1.nupkg.sha512",
+    "C:\\Users\\Vitalii\\.nuget\\packages\\fsharp.core\\6.0.3\\fsharp.core.6.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
