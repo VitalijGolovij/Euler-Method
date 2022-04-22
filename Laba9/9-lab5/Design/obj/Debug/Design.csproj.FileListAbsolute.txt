@@ -1,0 +1,11 @@
+C:\Users\Vitalii\source\repos\LR5\Laba9\9-lab5\Design\bin\Debug\Design.exe.config
+C:\Users\Vitalii\source\repos\LR5\Laba9\9-lab5\Design\bin\Debug\Design.exe
+C:\Users\Vitalii\source\repos\LR5\Laba9\9-lab5\Design\bin\Debug\Design.pdb
+C:\Users\Vitalii\source\repos\LR5\Laba9\9-lab5\Design\obj\Debug\Design.csproj.AssemblyReference.cache
+C:\Users\Vitalii\source\repos\LR5\Laba9\9-lab5\Design\obj\Debug\Design.csproj.SuggestedBindingRedirects.cache
+C:\Users\Vitalii\source\repos\LR5\Laba9\9-lab5\Design\obj\Debug\Design.Form1.resources
+C:\Users\Vitalii\source\repos\LR5\Laba9\9-lab5\Design\obj\Debug\Design.Properties.Resources.resources
+C:\Users\Vitalii\source\repos\LR5\Laba9\9-lab5\Design\obj\Debug\Design.csproj.GenerateResource.cache
+C:\Users\Vitalii\source\repos\LR5\Laba9\9-lab5\Design\obj\Debug\Design.csproj.CoreCompileInputs.cache
+C:\Users\Vitalii\source\repos\LR5\Laba9\9-lab5\Design\obj\Debug\Design.exe
+C:\Users\Vitalii\source\repos\LR5\Laba9\9-lab5\Design\obj\Debug\Design.pdb
